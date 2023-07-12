@@ -73,11 +73,10 @@
 <html dir="ltr" lang="en-US">
 <head>
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-	<link rel="icon" type="image/png" href="images/logo2.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="images/logo2.png" sizes="32x32">
-
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="EduTech" />
+	<meta name=description content="EduTech">
+	
 	<!-- Stylesheets
 	============================================= -->
 	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />

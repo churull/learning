@@ -23,14 +23,6 @@
 		else if ($page== 'login') 
 			include("login.php");
 
-
-		else if($page=='privacy')
-			include("privacy.php");
-		
-		else
-			include("404.php");
-
-
 	} else {
 		include("home.php");
 	}

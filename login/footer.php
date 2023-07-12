@@ -1,24 +1,26 @@
-<!-- Footer
-		============================================= -->
-		<footer class="bg-light text-center">
+<footer class="bg-light py-3 text-center">
+    <div class="container">
+        <hr>
 
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights">
+		<p>"Learn Anywhere, Anytime with EduTech".</p>
 
-				<div class="container clearfix">
+        <p>Hak Cipta &copy; 2023 Aplikasi EduTech</p>
+    </div>
+</footer>
+<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
 
-					<div class="col_half">
-						<br>
-						Hak Cipta © 2023 Aplikasi EduTech<br>
-						
-					</div>
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
 
-			</div><!-- #copyrights end -->
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="js/functions.js"></script>
 
-			</div>
-			
-		</footer> <!-- #footer end -->
+</body>
 
 
 		

@@ -7,8 +7,6 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="EduTech" />
 	<meta name=description content="EduTech">
-	<link rel="icon" type="image/png" href="images/tab.png" sizes="100x100">
-	<link rel="icon" type="image/png" href="images/tab.png" sizes="100x100">
 
 	<!-- Stylesheets
 	============================================= -->
@@ -67,16 +65,9 @@
 								<ul>
 									<li><a href="index.php?page=course"><div><i class="icon-keyboard"></i>Programming languages</div></a></li>
 									
-									<li><a href="index.php?page=course"><div><i class="icon-line-align-center"></i>Library</div></a></li>
-
-									<li><a href="index.php?page=course"><div><i class="icon-data"></i>Databases</div></a></li>
-
 									<li><a href="index.php?page=course"><div><i class="icon-line-layout"></i>Web Development</div></a></li>
 									
 									<li><a href="index.php?page=course"><div><i class="icon-disqus"></i>Designing</div></a></li>
-
-									<li><a href="index.php?page=course"><div><i class="icon-graph"></i>Marketing</div></a></li>
-
 									
 								</ul>
 							</li>

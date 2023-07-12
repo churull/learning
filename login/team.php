@@ -32,19 +32,16 @@ if((!isset($_SESSION['userId']) && empty($_SESSION['userId'])) && (!isset($_SESS
                 $message_name = '<b class="text-danger text-center">Please fill the name field.</b>';
             }
 
-            //Qualification Condition
-            if(isset($_POST['qualification']) && !empty($_POST['qualification'])){
+            //Contribution Condition
+            if(isset($_POST['contribution']) && !empty($_POST['contribution'])){
             
-                if(preg_match('/^[A-Za-z\s]+$/',$_POST['qualification'])){
-                    $qualification = mysqli_real_escape_string($connection,$_POST['qualification']);
+                if(preg_match('/^[A-Za-z\s]+$/',$_POST['contribution'])){
+                    $contribution = mysqli_real_escape_string($connection,$_POST['contribution']);
                 }else{
 
-                    $message_q = '<b class="text-danger text-center">Please enter valid Qualifications.</b>';
+                    $message_q = '<b class="text-danger text-center">Please enter valid Contributions.</b>';
                 }
-            }else{
-               $message_q = '<b class="text-danger text-center">Please fill the Qualifications field.</b>';
             }
-
 
             if( isset($_FILES["profilePic"]["name"]) && !empty($_FILES["profilePic"]["name"]) ){
             
@@ -92,10 +89,10 @@ if((!isset($_SESSION['userId']) && empty($_SESSION['userId'])) && (!isset($_SESS
             }
 
 
-            if( ( isset($name) && !empty($name) )  && ( isset($newfilename) && !empty($newfilename) ) && ( isset($qualification) && !empty($qualification) )  ){
+            if( ( isset($name) && !empty($name) )  && ( isset($newfilename) && !empty($newfilename) ) && ( isset($contribution) && !empty($contribution) )  ){
 
 
-                $insert_query = "INSERT INTO `team` (name, image, qualification) VALUES ('$name','$newfilename','$qualification')";
+                $insert_query = "INSERT INTO `team` (name, image, contribution) VALUES ('$name','$newfilename','$contribution')";
 
                 if(mysqli_query($connection, $insert_query)){                        
                    
@@ -313,8 +310,8 @@ include('header.php');
                         <?php if(isset($message_picture)){ echo $message_picture; } ?>
                     </div>
                     <div class="form-group">
-                        <label for="qualificationId1">Qualifications</label>
-                        <input type="tex" id="qualificationId1" placeholder="Qualifications" name="qualification" class="form-control">
+                        <label for="contributionId1">Contributions</label>
+                        <input type="tex" id="contributionId1" placeholder="Contributions" name="contribution" class="form-control">
                         <?php if(isset($message_q)){ echo $message_q; } ?>
                     </div>
                     <div class="form-group">
@@ -331,7 +328,7 @@ include('header.php');
         <th>ID</th>
         <th>Picture</th>
         <th>Name</th>
-        <th>Qualification</th>
+        <th>Contribution</th>
         <th>Edit</th>
         <th>Delete</th>
     </tr>
@@ -347,7 +344,7 @@ include('header.php');
                         //output the data
          while( $row = mysqli_fetch_assoc($result) ){
                 echo "<tr>";
-echo "<td>".$row["id"]."</td> <td><img src=images/team/".$row["image"]." width='80px' height='80px'> </td> <td>".$row["name"]."</td><td>".$row["qualification"]."</td>";
+echo "<td>".$row["id"]."</td> <td><img src=images/team/".$row["image"]." width='80px' height='80px'> </td> <td>".$row["name"]."</td><td>".$row["contribution"]."</td>";
 
                 echo '<td><a href="updateteam.php?id='.$row['id']. '" type= "button" class="btn btn-primary btn-sm">
                 <span class="icon-edit"></span></a></td>';

@@ -201,17 +201,7 @@ include("header.php");
 					
 						<div class="widget noborder notoppadding">
 
-							<a target="_blank" href="https://www.facebook.com/ExceptionalProgrammers" class="social-icon si-small si-dark si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-
-							<a target="_blank" href="https://twitter.com/exceptionalprog" class="social-icon si-small si-dark si-twitter">
-								<i class="icon-twitter"></i>
-								<i class="icon-twitter"></i>
-							</a>
-
-							<a target="_blank" href="https://github.com/exceptionalprogrammers" class="social-icon si-small si-dark si-github">
+							<a target="_blank" href="https://github.com/churull" class="social-icon si-small si-dark si-github">
 								<i class="icon-github"></i>
 								<i class="icon-github"></i>
 							</a>

@@ -5,8 +5,8 @@
 		<section id="page-title">
 
 			<div class="container clearfix">
-				<h1>Some courses are <strong>Comming Soon...!</strong></h1>
-				<span>Exceptional Courses</span>
+				<h1>Some courses are <strong>Coming Soon...!</strong></h1>
+				<span>EduTech Courses</span>
 			</div>
 
 		</section><!-- #page-title end -->
@@ -49,7 +49,7 @@
 
                 echo '<div class="col-sm-6 col-md-3">
 							<div class="thumbnail image_fade">
-							  <img data-src="holder.js/300x200" alt="Image" src="gotoep/images/courses/'.$coursePic.'" style="display: block; border: 2px solid #555;">
+							  <img data-src="holder.js/300x200" alt="Image" src="images/course/'.$coursePic.'" style="display: block; border: 2px solid #555;">
 							  <div class="caption">
 							  	
 								<h5>'.$coursename.'</h5>

@@ -31,17 +31,15 @@ if((!isset($_SESSION['userId']) && empty($_SESSION['userId'])) && (!isset($_SESS
 		}
 
 
-		if( isset($_POST['qualification']) && !empty($_POST['qualification'])){
+		if( isset($_POST['contribution']) && !empty($_POST['contribution'])){
 			
-			if(preg_match('/^[A-Za-z\s]+$/',$_POST['qualification'])){
-				$qualification = mysqli_real_escape_string($connection,$_POST['qualification']);
+			if(preg_match('/^[A-Za-z\s]+$/',$_POST['contribution'])){
+				$contribution = mysqli_real_escape_string($connection,$_POST['contribution']);
 			}else{
 
-				$message_q = '<b class="text-danger text-center">Please enter valid Qualifications field.</b>';
+				$message_q = '<b class="text-danger text-center">Please enter valid Contributions field.</b>';
 			}
 
-		}else{
-			$message_q = '<b class="text-danger text-center">Please fill the Qualifications field.</b>';
 		}
 
 
@@ -90,12 +88,12 @@ if((!isset($_SESSION['userId']) && empty($_SESSION['userId'])) && (!isset($_SESS
 			$del = 'no';
 		}
 
-		if( ( isset($name) && !empty($name) )  && ( isset($newfilename) && !empty($newfilename) ) && ( isset($qualification) && !empty($qualification) )  ){
+		if( ( isset($name) && !empty($name) )  && ( isset($newfilename) && !empty($newfilename) ) && ( isset($contribution) && !empty($contribution) )  ){
 
 				$insert_query = "UPDATE `team` set
 				 name ='$name',  
 				 image = '$newfilename', 
-				 qualification = '$qualification' 
+				 contribution = '$contribution' 
 				 WHERE id = '$memberId'";
 
 				if(mysqli_query($connection, $insert_query)){
@@ -130,7 +128,7 @@ if(isset($_GET['id'])){
 			while( $row = mysqli_fetch_assoc($result) ){
 				$memberPic = $row["image"];
 				$memberName = $row["name"];
-				$memberQualification = $row["qualification"];
+				$memberContribution = $row["contribution"];
 			}
 		}
 	}else header('Location: team.php?back=1');    
@@ -250,8 +248,8 @@ include('header.php');
                     </div>
 
                     <div class="form-group">
-                        <label for="qualificationid1">Qualifications</label>
-                        <input type="tex" id="qualificationid1" placeholder="Qualifications" value="<?php if($memberQualification) echo $memberQualification; ?>" name="qualification" class="form-control">
+                        <label for="contributionid1">Contributions</label>
+                        <input type="tex" id="contributionid1" placeholder="Contribution" value="<?php if($memberContribution) echo $memberContribution; ?>" name="contribution" class="form-control">
                         <?php if(isset($message_q)){ echo $message_q; } ?>
                     </div>
 

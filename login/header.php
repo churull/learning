@@ -3,10 +3,10 @@
 <html dir="ltr" lang="en-US">
 <head>
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="Projek EduTech" />
-	<link rel="icon" type="image/png" href="images/tab.png" sizes="100x100">
-	<link rel="icon" type="image/png" href="images/tab.png" sizes="100x100">
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="EduTech" />
+	<meta name=description content="EduTech">
+	
 
 	<!-- Stylesheets
 	============================================= -->
