@@ -49,7 +49,7 @@
 
                 echo '<div class="col-sm-6 col-md-3">
 							<div class="thumbnail image_fade">
-							  <img data-src="holder.js/300x200" alt="Image" src="images/course/'.$coursePic.'" style="display: block; border: 2px solid #555;">
+							  <img data-src="holder.js/300x200" alt="Image" src="login/images/courses/'.$coursePic.'" style="display: block; border: 2px solid #555;">
 							  <div class="caption">
 							  	
 								<h5>'.$coursename.'</h5>

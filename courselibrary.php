@@ -90,14 +90,14 @@
                 echo "<tr>";
 
 
-                echo "<td width='100px' height='100px'><img src=gotoep/images/library/".$row["image"]." width='100px' height='100px'>
+                echo "<td width='100px' height='100px'><img src=login/images/courses/".$row["image"]." width='100px' height='100px'>
                 </td>";
                 
                 echo "<td><strong>".$row["name"]."</strong></td>";
 
                 echo "<td>".$row["description"]."</td>";
 
-                echo '<td width="50px"><a target="_blank" href="gotoep/books/'.$row['book']. '" type= "button" class="btn btn-primary btn-sm">
+                echo '<td width="50px"><a target="_blank" href="login/books/'.$row['book']. '" type= "button" class="btn btn-primary btn-sm">
                 <span class="icon-download-alt"></span></a></td>';             
 
 
@@ -142,14 +142,14 @@
                 echo "<tr>";
 
 
-                echo "<td width='100px' height='100px'><img src=gotoep/images/library/".$row["image"]." width='100px' height='100px'>
+                echo "<td width='100px' height='100px'><img src=login/images/courses/".$row["image"]." width='100px' height='100px'>
                 </td>";
                 
                 echo "<td><strong>".$row["name"]."</strong></td>";
 
                 echo "<td>".$row["description"]."</td>";
 
-                echo '<td width="50px"><a target="_blank" href="gotoep/books/'.$row['book']. '" type= "button" class="btn btn-primary btn-sm">
+                echo '<td width="50px"><a target="_blank" href="login/books/'.$row['book']. '" type= "button" class="btn btn-primary btn-sm">
                 <span class="icon-download-alt"></span></a></td>';             
 
 

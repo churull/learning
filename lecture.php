@@ -97,7 +97,7 @@ include("header.php"); ?>
 					<div class="">
 						<div class="col-xs-6 col-sm-3">		
     						<div class="thumbnail">
-      							<img src="gotoep/images/instructor/<?php echo $teacherPic; ?>" alt="Instructor">
+      							<img src="images/courses/<?php echo $teacherPic; ?>" alt="Instructor">
       								<div class="caption">
         							<h3><?php echo $teacherName; ?></h3>
         							
