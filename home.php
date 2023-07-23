@@ -50,7 +50,11 @@
 							<div class="heading-block topmargin">
 								<h1>Welcome to EduTech</h1>
 							</div>
-							<p class="lead">EduTech (Education Technology) adalah istilah yang digunakan untuk merujuk pada penggunaan teknologi dalam konteks pendidikan. Ini mencakup berbagai aplikasi, perangkat lunak, dan platform yang digunakan untuk meningkatkan pengalaman belajar dan pengajaran. Hal ini memungkinkan siswa untuk mengakses materi pembelajaran secara online melalui perangkat elektronik seperti komputer, laptop, tablet, atau smartphone..</p>
+							<p class="lead">EduTech (Education Technology) adalah istilah yang digunakan untuk merujuk pada 
+								penggunaan teknologi dalam konteks pendidikan. Ini mencakup berbagai aplikasi, perangkat lunak, 
+								dan platform yang digunakan untuk meningkatkan pengalaman belajar dan pengajaran. 
+								Hal ini memungkinkan siswa untuk mengakses materi pembelajaran secara online melalui perangkat 
+								elektronik seperti komputer, laptop, tablet, atau smartphone..</p>
 						</div>
 
 						<div class="col-lg-7">
@@ -74,7 +78,8 @@
 								<div class="heading-block nobottomborder" style="margin-bottom: 15px;">
 									<h4>Aksesibilitas</h4>
 								</div>
-								<p>Dapat mengakses materi pembelajaran kapan saja dan di mana saja dengan menggunakan perangkat elektronik yang terhubung ke internet.</p>
+								<p>Dapat mengakses materi pembelajaran kapan saja dan di mana saja dengan menggunakan 
+									perangkat elektronik yang terhubung ke internet.</p>
 							</div>
 
 							<div class="col-md-4 bottommargin">
@@ -82,7 +87,8 @@
 								<div class="heading-block nobottomborder" style="margin-bottom: 15px;">
 									<h4>Fleksibilitas</h4>
 								</div>
-								<p>Aplikasi e-learning memungkinkan siswa untuk belajar sesuai dengan kecepatan dan jadwal mereka sendiri, memungkinkan adaptasi yang lebih baik terhadap gaya belajar individu.</p>
+								<p>Aplikasi e-learning memungkinkan siswa untuk belajar sesuai dengan kecepatan dan 
+									jadwal mereka sendiri, memungkinkan adaptasi yang lebih baik terhadap gaya belajar individu.</p>
 							</div>
 
 							<div class="col-md-4 bottommargin">
@@ -90,7 +96,8 @@
 								<div class="heading-block nobottomborder" style="margin-bottom: 15px;">
 									<h4>Interaktivitas</h4>
 								</div>
-								<p> Fitur-fitur interaktif dalam aplikasi e-learning dapat membuat proses pembelajaran lebih menarik dan menantang bagi siswa..</p>
+								<p> Fitur-fitur interaktif dalam aplikasi e-learning dapat membuat proses pembelajaran lebih 
+									menarik dan menantang bagi siswa..</p>
 							</div>
 
 						</div>

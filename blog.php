@@ -60,14 +60,14 @@ if(mysqli_num_rows($result2) > 0){
 
 while( $row2 = mysqli_fetch_assoc($result2) ){
 		$adminName = $row2['name'];
-}} else { $adminName = 'Exceptional Programmers';}	
+}} else { $adminName = 'Nurul Hasanah';}	
 
 	 echo '<div class="col-md-3 col-sm-6 bottommargin">
 			<div class="ipost clearfix">';
 
 	if($status=='image'){			
 			echo'<div heigth="150px" width="150px">
-					<a href="blog.php?id='.$postId.'"><img class="image_fade" src="gotoep/images/blog/'.$post.'" alt="Image"></a>
+					<a href="blog.php?id='.$postId.'"><img class="image_fade" src="login/images/blog/'.$post.'" alt="Image"></a>
 				</div>';
 	}else{
 		echo'<div>
@@ -135,13 +135,13 @@ if(mysqli_num_rows($result2) > 0){
 
 while( $row2 = mysqli_fetch_assoc($result2) ){
 		$adminName = $row2['name'];
-}} else { $adminName = 'Exceptional Programmers';}	
+}} else { $adminName = 'Nurul Hasanah';}	
 
 
 	if($status=='image'){			
 			echo'<div class="entry clearfix">
 				<div class="entry-image">
-					<img style=" height: 500px;" class="image_fade" src="gotoep/images/blog/'.$post.'" alt="Exceptional">
+					<img style=" height: 500px;" class="image_fade" src="login/images/blog/'.$post.'" alt="Edutech">
 				</div>';					
 	}else{
 
@@ -221,13 +221,13 @@ while( $row2 = mysqli_fetch_assoc($result2) ){
 
         		while( $row2 = mysqli_fetch_assoc($result2) ){
         				$adminName = $row2['name'];
-        		}} else { $adminName = 'EduTech';}	
+        		}} else { $adminName = 'Nurul Hasanah';}	
 
 
 					if($status=='image'){			
 						echo'<div class="clearfix">
 							<div class="entry-image">
-								<a href="blog.php?id='.$postId.'"><img class="image_fade" src="gotoep/images/blog/'.$post.'" alt="Post"></a>
+								<a href="blog.php?id='.$postId.'"><img class="image_fade" src="login/images/blog/'.$post.'" alt="Post"></a>
 							</div>';						
 					}else{
 

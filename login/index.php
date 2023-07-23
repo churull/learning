@@ -111,7 +111,8 @@
 
 			<div class="content-wrap nopadding">
 
-				<div class="section nopadding nomargin" style="width: 100%; height: 100%; position: absolute; left: 0; top: 0; background: #9ed66d center center no-repeat; background-size: cover;"></div>
+				<div class="section nopadding nomargin" style="width: 100%; height: 100%; position: absolute; left: 0; top: 0; 
+				background: #9ed66d center center no-repeat; background-size: cover;"></div>
 
 				<div class="section nobg full-screen nopadding nomargin">
 					<div class="container vertical-middle divcenter clearfix">
@@ -120,7 +121,8 @@
 							<a href="index.php"><img height="170px" src="../images/logo2.png" alt="EduTech"></a>
 						</div>
 
-						<div class="panel panel-default divcenter radius noborder" style="max-width: 400px; background-color: rgba(255,255,255,0.93);">
+						<div class="panel panel-default divcenter radius noborder" style="max-width: 400px; 
+						background-color: rgba(255,255,255,0.93);">
 							<div class="panel-body" style="padding: 40px;">
 								<form id="login-form" name="login-form" class="nobottommargin" action="" method="post">
 									<h3>Login to your Account</h3>
@@ -136,7 +138,8 @@
 									</div>
 
 									<div class="col_full nobottommargin center">
-										<button class="button button-3d button-black nomargin " id="login-form-submit" name="submit" value="login">Login</button>
+										<button class="button button-3d button-black nomargin " id="login-form-submit" 
+										name="submit" value="login">Login</button>
 										
 									</div>	
 									
